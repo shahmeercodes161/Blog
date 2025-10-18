@@ -1,0 +1,85 @@
+fieldset{
+        background-color: #ffe2e2; /* Light gray background */
+        padding: 20px; /* Add some padding for spacing */
+        border-radius: 8px; /* Rounded corners */
+        max-width: 400px; /* Limit form width */
+        margin: 20px auto; /* Center the form on the page */
+    }
+   
+    
+#sub{
+    text-align: center;
+    font-style: italic;
+    font-display: block;
+    font-size: x-large;
+}
+
+footer{
+    background-color: black;
+    color: azure;
+    text-align: right;
+    font-size: 10px;
+    
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.social-link svg {
+  width: 22px;
+  height: 22px;
+  fill: #e4405f; /* Instagram color */
+}
+
+.social-link:hover {
+  transform: scale(1.1);
+  background: rgba(228, 64, 95, 0.1);
+}
+
+.navbar{
+    display: flex;
+    align-items: centre;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 10px 40px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0,0.1);
+}
+
+.logo {
+  width: 120px;      /* 🔹 Controls logo size — adjust between 80–150px */
+  height: auto;      /* Keeps proportions corect */
+  display: block;    /* Removes extra space below image */
+  margin: 10px 20px; /* Adds small space around the logo */
+}
+
+
+.navlink{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+
+.navlink a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+
+}
+
+
+.navlink a:hover{
+    color: #007bff;
+}
+
+
